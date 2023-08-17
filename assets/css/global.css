@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.content h1 {
+  margin: 0;
+}
+
+.pokemons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pokemons li {
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.pokemons #bulbasaur {
+  background-color: #14a06f;
+  color: white;
+  border-radius: 1rem;
+}
