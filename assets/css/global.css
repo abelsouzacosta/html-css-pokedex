@@ -2,6 +2,7 @@
 
 * {
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 .content {
@@ -23,6 +24,12 @@
 .pokemons li {
   margin: 0.5rem;
   padding: 1rem;
+}
+
+.pokemons li img {
+  height: 110px;
+  max-width: 100%;
+  border-style: none;
 }
 
 .pokemons #bulbasaur {
