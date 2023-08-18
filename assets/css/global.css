@@ -21,19 +21,53 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.pokemons li {
+.pokemon {
+  display: flex;
+  flex-direction: column;
   margin: 0.5rem;
   padding: 1rem;
+  border-radius: 1rem;
+  background-color: #49d0b0;
+  color: #fff;
 }
 
-.pokemons li img {
-  height: 110px;
+.pokemon .detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pokemons .detail img {
+  height: 70px;
   max-width: 100%;
   border-style: none;
+  align-items: flex-end;
 }
 
-.pokemons #bulbasaur {
-  background-color: #14a06f;
+.pokemon .number {
+  color: black;
+  opacity: 0.3;
+  text-align: right;
+}
+
+.pokemon .detail .name {
   color: white;
-  border-radius: 1rem;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.pokemon .detail .types {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.pokemon .detail .types .type {
+  background-color: #61e1ca;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.625rem;
+  margin: 0.25rem 0.25rem;
+  border-radius: 0.8rem;
 }
